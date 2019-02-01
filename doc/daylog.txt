@@ -1,0 +1,38 @@
+2015-11-19
+Vi skapar repon
+Vi skapar template för spelet (kopierar exempel)
+Vi pushar template
+- inbjudningen av assistenter till projektet strulade då
+e av assistenterna ville att vi skulle använda en annan email-address
+- installeringen av SDL var krånglig och svår att förstå
+- SDL på mac vägrade att fungera så vi kör alla tester på datorn med linux
+
+2015-11-24
+Idag lärde vi oss hur man använder konstanta variabler.
+Vi frågade assisternter hur man gjorde, så nu kommer vi åt spelplanens
+höjd och bred i alla dokument. Vi fick använda "extern".
+Vi skapar också ett sätt så vi kan klicka ner spelet utan att det
+hänger upp sig.
+
+2015-12-04
+Något har hänt på vägen och våra commits vi pushat har inte pushats.
+Vi har skapat klasser för boll, spelare och bricka. Dessa ärver av
+klassen area. I area ärvde vi från klassen rect men detta har vi ändrat till
+en medlemsvariabel. 
+Denna dag pratade vi också med Jonas om hur vi skulle kunna få kollideringen
+av bollen att fungera så vi kan styra bollen. 
+Vi tog även upp hur vi förstör fiender på ett bättre sätt
+Koordinatsytem / vektorer / etc fick vi hjälp med också
+vi pratade även om att texturer tog mycket plats och inte skulle laddas
+om igen och igen.
+
+Senare på dagen:
+Vissa get funktioner användes inte, det fixade vi
+Ball "collide-player" är ändrad så att vi kan halft "styra" bollen
+Tog bort "speedX" och "speedY" och ersatta dessa med speed
+
+2015-12-10
+Pushar upp ändringar
+kod-stilen har förbättrats
+kommentarer har förbättras
+
